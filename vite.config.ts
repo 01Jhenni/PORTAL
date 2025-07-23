@@ -8,6 +8,9 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    allowedHosts: [
+      "portal-bk1g.onrender.com"
+    ],
   },
   plugins: [
     react(),
